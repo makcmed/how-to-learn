@@ -49,6 +49,7 @@
   width: 730px;
   min-height: 96px;
   margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -58,6 +59,8 @@
   width: 388px;
   min-height: 25px;
   font-size: 18px;
+  font-weight: 400;
+  z-index: 2;
 }
 
 .header__link {
@@ -72,6 +75,8 @@
   width: 765px;
   height: 608px;
   z-index: 1;
+  object-fit: contain;
+  object-position: right bottom;
 }
 
 .description {
@@ -184,7 +189,7 @@
 
 .feynman {
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   display: flex;
   flex-flow: column;
@@ -274,9 +279,10 @@
   padding: 60px 0 40px;
   box-sizing: border-box;
   background-color: #1F1F1F;
+  min-height: 350px;
+  display: flex;
 }
 .footer__columns {
-  min-height: 250px;
   width: 90%;
   margin: 0 auto 0;
   display: flex;
