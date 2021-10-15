@@ -178,13 +178,37 @@
   text-align: center;
 }
 
-.video{
+.video {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: -50px;
 }
+
+.video__iframes {
+  margin: 50px auto 0;
+}
+
+.video__iframe {
+  border: none;
+  width: 515px;
+  height: 316px;
+  padding-right: 20px;
+}
+
+.video__iframe:last-child {
+  padding-right: 0;
+}
+
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  background-color: #F2F2F2;
+  }
+
 .digits {
   display:flex;
   justify-content: center;
@@ -299,6 +323,11 @@
   font-size: 36px;
   font-weight: 400;
   margin: 0;
+}
+
+.khan {
+  background-color: #F2F2F2;
+  padding-top: 105px;
 }
 
 .kaufman {
