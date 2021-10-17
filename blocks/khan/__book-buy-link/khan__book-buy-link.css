@@ -4,6 +4,7 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: 400;
+  align-self: flex-start;
 }
 .khan__book-buy-link:hover {
   opacity: 0.5;
